@@ -1,0 +1,48 @@
+.nav-custom{
+background-color: cornsilk;
+}
+
+
+.heading{
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+p{
+    text-align: justify;
+}
+img{
+    height: 500px;
+    width: auto;
+}
+
+.my-btn{
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 200px;
+    height: 40px;
+    transition: all 1s;
+    border: none;
+}
+
+.my-btn:hover{
+ color: white;
+    background-color: blueviolet;
+    box-shadow: 0 0 5px black;
+    transition: all 1s ease-in-out;
+    transform: rotateX(360deg)
+}
+
+.my-btn:hover{
+    transform: rotateX(360deg);
+    box-shadow: 0 0 5px black;
+    transition: all 500ms;
+}
+
+/* .pagination li a, .pagination li { border-radius: 50% !important; margin: 0 5px;} */
+
+img{
+    padding: 7px;
+}
